@@ -81,7 +81,7 @@ html, body {
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed rgb(255, 255, 255);
+	/*border: 3px dashed rgb(255, 255, 255); */
 	text-align: center;
 }
 
@@ -90,7 +90,9 @@ h1 {
 	font-family: "inter-variable", sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #000000;
+	margin-top: 2;
+
 }
 
 h2 {
@@ -98,7 +100,7 @@ h2 {
 	font-family: "inter-variable", sans-serif;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: #000000;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -108,7 +110,7 @@ p {
 	font-family: "inter-variable", sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: #000000;
 }
     
 nav{
@@ -116,10 +118,11 @@ nav{
 	font-size:1.2em;
 	width:400px;
 	margin:0auto;
-	border: dashed turquoise;
+	border:rgba(255, 255, 255, 0);
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
+	margin-left: 10em;
 }    
 
 nav li{
@@ -128,7 +131,7 @@ nav li{
 
 nav li{
 	display:inline-block;
-	padding:10px
+	padding:2px
 }
 
 a{color: #444;
@@ -138,6 +141,6 @@ font-weight: bold;
 
 a:hover{
 	color: black;
-	background: pink;
+	background: rgb(192, 255, 201);
 
 }
